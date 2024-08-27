@@ -1,9 +1,10 @@
-function factorial(n) {
-    if(n === 0) return 1;
-    else return n * factorial(n - 1);
-}
-
+//Utilized prior experience in class, including my own prior exercises
 function e(n) {
-    if(n === 0) return 1;
-    else return 1.0 / factorial(n) + e(n - 1);
+    var final = 1;
+    var factTemp = 1;
+    for(let i = 1; i <=n; i++){
+        final += 1/(factTemp*=i);
+    }
+   return final;
 }
+//console.log((e(1000)))
