@@ -20,5 +20,5 @@ but you need to go beyond that.
 
 ## Runtime Analysis
 
-What is the worst-case big $\Theta$ time complexity of your algorithm?
+What is the worst-case big $\Theta$ time complexity of your algorithm? /
 Since the algorithm utilizes a for loop that iterates for N number of times, thus, $\Theta(N)$
