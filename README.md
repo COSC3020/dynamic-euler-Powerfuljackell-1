@@ -1,3 +1,9 @@
+“I certify that I have listed all sources used to complete this exercise, including the use
+of any Large Language Models. All of the work is my own, except where stated
+otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is
+suspected, charges may be filed against me without prior notice.”
+"Resources used to aid in completion of code will be listed within my code in addition to the resources listed to aid with the README and/or analysis of code"
+
 # Dynamic Programming Euler's Number
 
 The mathematical constant $e$ (Euler's number) is defined as follows:
@@ -16,4 +22,5 @@ but you need to go beyond that.
 
 ## Runtime Analysis
 
-What is the worst-case big $\Theta$ time complexity of your algorithm?
+What is the worst-case big $\Theta$ time complexity of your algorithm? \
+Since the algorithm utilizes a for loop that iterates for N number of times, thus, $\Theta(N)$
